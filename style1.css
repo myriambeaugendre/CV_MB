@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+main, header, footer {
+	width: 100%;
+}
+h2, h3, .titre {
+	text-transform: uppercase;
+}
+
+.page{
+	font-family: 'Quicksand';
+	width: 60%;
+	margin:auto;
+	font-size: 16px;
+}
+/*.portrait{
+	display: flex;
+	flex-direction: row;
+	
+}*/
+.titres{
+	font-size: 40px;
+}
+.sous-titre{
+	font-size: 20px;
+	font-weight: bold;
+}
+.dev{
+	border-bottom: 2px solid #FBD135;
+}
+
+
+.prenom{
+	color: #FBD135;
+}
+img{
+	max-width: 100%;
+	border-radius: 60%;
+	padding-top: 10%;
+	
+}
+.yellowSide a {
+	width: 75%;
+	margin: auto;
+}
+
+.yellowSide{
+	width: 25%;
+	background-color: #FBD135;
+	text-align: center;
+	position: relative;
+	/*align-content: stretch;*/
+	
+}
+.whiteSide{
+	width: 70%;
+	margin:auto;
+	padding: 2%
+}
+.wrapper {
+	width: 90%;
+	margin: auto;
+
+}
+
+h3{
+	font-weight: bold;
+	background-color: #51514F;
+	color:#FBD135;
+	text-align: center;
+	
+
+}
+.adresse, #moi{
+	width:80%;
+	margin: auto;
+	text-align: justify;
+	padding: 8%; /*marge interieur*/
+	word-wrap: break-word;	
+}
+p{
+	word-wrap: break-word;
+	text-align: justify;
+	padding: 20px;
+}
+
+h2{
+	border-bottom: 2px solid #FBD135;
+	font-size: 28px;
+
+}
+.titre{
+	font-weight: bold;
+}
+.flex{
+	display: flex;
+	
+	
+}
+.flex-wrap {
+	flex-wrap: wrap;
+}
+.detail{
+	display: flex;
+	align-items: center;
+
+}
+.information{
+
+	margin:auto;
+	text-align: justify;
+	
+
+}
+.loisirs{
+	position: absolute;
+	
+	padding-bottom: 30%
+
+}
+/*icone
+.fa-circle{
+	 font-family: "Font Awesome 5 Free"; 
+	font-weight: 200;
+	content: "\f111";
+}*/
+.fas, .far{
+	padding-right: 5%;
+	color: #FBD135
+}
+ul{
+list-style-type : none;	
+
+} 
+li{
+	background-image: "\f111";
+}
+	
+
+.chip{
+	/*flex-direction: column;*/
+	margin-right: 0%
+	
+}
