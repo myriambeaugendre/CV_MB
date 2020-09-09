@@ -3,7 +3,7 @@
 main, header, footer {
 	width: 100%;
 }
-h2, h3, .titre {
+h2, h3, .titre, .recommandation {
 	text-transform: uppercase;
 }
 
@@ -13,16 +13,16 @@ h2, h3, .titre {
 	margin:auto;
 	font-size: 16px;
 }
-/*.portrait{
-	display: flex;
-	flex-direction: row;
-	
-}*/
+
 .titres{
 	font-size: 40px;
 }
 .sous-titre{
 	font-size: 20px;
+	font-weight: bold;
+}
+.recommandation{
+	font-size: 18px;
 	font-weight: bold;
 }
 .dev{
@@ -48,8 +48,7 @@ img{
 	width: 25%;
 	background-color: #FBD135;
 	text-align: center;
-	position: relative;
-	/*align-content: stretch;*/
+
 	
 }
 .whiteSide{
@@ -78,19 +77,23 @@ h3{
 	padding: 8%; /*marge interieur*/
 	word-wrap: break-word;	
 }
-p{
+.moi{
 	word-wrap: break-word;
 	text-align: justify;
-	padding: 20px;
+
+	
 }
+
 
 h2{
 	border-bottom: 2px solid #FBD135;
-	font-size: 28px;
+	font-size: 29px;
 
 }
 .titre{
 	font-weight: bold;
+	font-size: 19px;
+
 }
 .flex{
 	display: flex;
@@ -102,43 +105,50 @@ h2{
 }
 .detail{
 	display: flex;
-	align-items: center;
+	
 
 }
 .information{
-
-	margin:auto;
+	width: 60%;
 	text-align: justify;
-	
-
 }
-.loisirs{
-	position: absolute;
-	
-	padding-bottom: 30%
-
+.date{
+	width: 30%
 }
-/*icone
-.fa-circle{
-	 font-family: "Font Awesome 5 Free"; 
-	font-weight: 200;
-	content: "\f111";
-}*/
+
+
 .fas, .far{
 	padding-right: 5%;
 	color: #FBD135
 }
-ul{
-list-style-type : none;	
 
-} 
-li{
-	background-image: "\f111";
+.fa-circle{
+	font-size: 11px;
 }
-	
+.fa-dot-circle{
+	font-size: 18px;
+}
+
+.fa-biking, .fa-book-reader{
+	color: black;
+	font-size: 40px;
+	padding-bottom: 15%;
+}
+
+
+.soustitre{
+	font-size: 18px;
+}
 
 .chip{
-	/*flex-direction: column;*/
-	margin-right: 0%
+	margin-right: 5%;
 	
 }
+p{
+	margin-bottom: 5px;
+	margin-top: 8px;
+}
+.end2{
+	padding-left: 30%;
+}
+
